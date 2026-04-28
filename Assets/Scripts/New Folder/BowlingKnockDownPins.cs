@@ -4,13 +4,13 @@ public class BowlingKnockDownPins : MonoBehaviour
 {
     public ButtonColour buttonColour;
     public Renderer ButtonRenderer;
-    private int counter = 0;
+    private int counter = 10;
     void OnTriggerExit(Collider collision)
     {
         ButtonRenderer = collision.GetComponent<Renderer>();
 
 
-        if(counter == 10)
+        if(counter == 0)
         {
         buttonColour.LeftBasketballHoop = false;
         buttonColour.RightBasketballHoop = false;
