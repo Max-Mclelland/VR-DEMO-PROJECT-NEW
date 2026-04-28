@@ -9,37 +9,43 @@ namespace Valve.VR.InteractionSystem.Sample
 {
     public class ButtonEffect : MonoBehaviour
     {
+            //script for bascketball
 
-        private Renderer Button; 
-        public GameObject ResetablePrefab;
-        private GameObject currentPrefab;
-        public ButtonColour buttonColour;
+        public GameObject ResetablePrefab;    // main gameobjects
+        public GameObject secondResetablePrefab;
 
-    void Start()
+        public List<Transform> resetable = new List<Transform>();
+        public List<Transform> resetable = new List<Transform>();
+
+        private int i = 0;
+        private int j = 0;
+
+
+        Awake() //get the children of the prefab stored as part of the array
         {
-            Button = GetComponent<Renderer>();
-            currentPrefab = Instantiate(ResetablePrefab);
-                Debug.Log("ResetablePrefab is: " + ResetablePrefab);  // is it null?
-    Debug.Log("currentPrefab is: " + currentPrefab); 
+            foreach(Transform child in ResetablePrefab)
+            {
+                resetable.Adds(child);
+            }
         }
 
 
-        public void OnButtonEngage(Hand fromHand)
+        public void OnButtonDown(Hand fromHand)
         {
-                Debug.Log("Button pressed");                          // is this being called?
-    Debug.Log("currentPrefab is: " + currentPrefab);
-            ResetComponents();
-            fromHand.TriggerHapticPulse(1000);
-        }
+                 foreach(Transform child in ResetablePrefab)
+            {
+                resetable[i] = ResetablePrefab.transform.GetChild(i);
+            }
 
-        void ResetComponents()
-        {
-                Debug.Log("Destroying: " + currentPrefab);
-            Destroy(currentPrefab);
-                currentPrefab = Instantiate(ResetablePrefab);   
-            Instantiate(ResetablePrefab);
+
+            if(secondResetablePrefab != null)
+                {
+                    foreach(Transform child in secondResetablePrefab)
+                        {
+                            secondResetable[j] = secondResetablePrefab.transform.GetChild(j);
+                        }
+                }
         }
-        
         
     }
 }
