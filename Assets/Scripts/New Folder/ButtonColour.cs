@@ -9,6 +9,7 @@ public class ButtonColour : MonoBehaviour
     public Renderer LeftArcheryButton;
     public Renderer RightArcheryButton;
     public Renderer BowlingButton;
+    public int ButtonCounter = 0;
 
     public bool LeftBasketballHoop;     
     public bool RightBasketballHoop;
@@ -24,22 +25,47 @@ public class ButtonColour : MonoBehaviour
      {
             if(LeftBasketballHoop == true)
                 {
-                    LeftBasketballButton.sharedMaterial = GreenButton;
+                     if(LeftBasketballButton.sharedMaterial != GreenButton)
+                        {
+                            ButtonCounter++;
+                        }
+
+                LeftBasketballButton.sharedMaterial = GreenButton;
                 }
             if(RightBasketballHoop == true)
                 {
+                    if(RightBasketballButton.sharedMaterial != GreenButton)
+                        {
+                            ButtonCounter++;
+                        }
+
                     RightBasketballButton.sharedMaterial = GreenButton;
                 }
             if(LeftArcheryTarget == true)
                 {
+                    if(LeftArcheryButton.sharedMaterial != GreenButton)
+                        {
+                            ButtonCounter++;
+                        }
+                        
                     LeftArcheryButton.sharedMaterial = GreenButton;
                 }
             if(RightArcheryTarget == true)
                 {
+                    if(RightArcheryButton.sharedMaterial != GreenButton)
+                        {
+                            ButtonCounter++;
+                        }
+
                     RightArcheryButton.sharedMaterial = GreenButton;
                 }
             if(BowlingLane == true)
                 {
+                    if(BowlingButton.sharedMaterial != GreenButton)
+                        {
+                            ButtonCounter++;
+                        }
+
                     BowlingButton.sharedMaterial = GreenButton;
                 }
      }
