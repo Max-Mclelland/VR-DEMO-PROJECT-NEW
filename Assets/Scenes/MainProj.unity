@@ -24899,10 +24899,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450652618803599}
     m_Modifications:
+    - target: {fileID: 901623011628179634, guid: 8c0eaa156d09215488aa9626abf0ea48, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 85ab1da9f6eacfc41901428312b5fc56, type: 2}
+    - target: {fileID: 1119898940829410107, guid: 8c0eaa156d09215488aa9626abf0ea48, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 85ab1da9f6eacfc41901428312b5fc56, type: 2}
     - target: {fileID: 2066955579531662052, guid: 8c0eaa156d09215488aa9626abf0ea48, type: 3}
       propertyPath: m_Name
       value: RightBasketballPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 2436439439091856313, guid: 8c0eaa156d09215488aa9626abf0ea48, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 2e81b378186c0ed4c98c04cfd4096914, type: 2}
     - target: {fileID: 4102364455611029375, guid: 8c0eaa156d09215488aa9626abf0ea48, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.323953
@@ -24943,6 +24955,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312383460494192102, guid: 8c0eaa156d09215488aa9626abf0ea48, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 85ab1da9f6eacfc41901428312b5fc56, type: 2}
+    - target: {fileID: 4453363230141319738, guid: 8c0eaa156d09215488aa9626abf0ea48, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 2e81b378186c0ed4c98c04cfd4096914, type: 2}
+    - target: {fileID: 5377512107337461738, guid: 8c0eaa156d09215488aa9626abf0ea48, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 2e81b378186c0ed4c98c04cfd4096914, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25437,10 +25461,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450652618803599}
     m_Modifications:
+    - target: {fileID: 893498249227718173, guid: e12dcdb2fb59a024d850411cb30589f5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 85ab1da9f6eacfc41901428312b5fc56, type: 2}
     - target: {fileID: 2294105691848623823, guid: e12dcdb2fb59a024d850411cb30589f5, type: 3}
       propertyPath: m_Name
       value: LeftBasketballPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 3226913162001958897, guid: e12dcdb2fb59a024d850411cb30589f5, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 2e81b378186c0ed4c98c04cfd4096914, type: 2}
+    - target: {fileID: 4479612915896526766, guid: e12dcdb2fb59a024d850411cb30589f5, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 2e81b378186c0ed4c98c04cfd4096914, type: 2}
     - target: {fileID: 4959947138394520641, guid: e12dcdb2fb59a024d850411cb30589f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.323953
@@ -25481,6 +25517,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6313342932775829621, guid: e12dcdb2fb59a024d850411cb30589f5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 85ab1da9f6eacfc41901428312b5fc56, type: 2}
+    - target: {fileID: 7534834913125200199, guid: e12dcdb2fb59a024d850411cb30589f5, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 2e81b378186c0ed4c98c04cfd4096914, type: 2}
+    - target: {fileID: 9034017996039570624, guid: e12dcdb2fb59a024d850411cb30589f5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 85ab1da9f6eacfc41901428312b5fc56, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
