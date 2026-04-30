@@ -7,13 +7,16 @@ public class DayEnd : MonoBehaviour
     public float ChangedIntensity;
     private Light childLight;
     public GameObject LegoGuyToActivate;
+    public GameObject EndDayMessage1;
+    public GameObject EndDayMessage2;
+    public GameObject EndDayMessage3;
 
     void Update()
     {
-        Debug.Log("Is this called? frfr" + buttonColour.ButtonCounter);
+        //Debug.Log("Is this called?  + buttonColour.ButtonCounter");
         if(buttonColour.ButtonCounter == 5)
         {
-            Debug.Log("Is this called?");
+           // Debug.Log("Is this called?");
             EndDay();
         }
     }
@@ -27,6 +30,10 @@ public class DayEnd : MonoBehaviour
             }
 
         LegoGuyToActivate.SetActive(true);
+        EndDayMessage1.SetActive(true);
+        EndDayMessage2.SetActive(true);
+        EndDayMessage3.SetActive(true);
+
 
         //Canvas World SpaceIn Front of you
 

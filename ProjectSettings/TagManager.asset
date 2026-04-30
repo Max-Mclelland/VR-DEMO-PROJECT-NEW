@@ -8,6 +8,8 @@ TagManager:
   - ball
   - left
   - bowlingPin
+  - FxTemporaire
+  - ExitTag
   layers:
   - Default
   - TransparentFX
